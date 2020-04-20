@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="HoaDon"
+    targetNamespace="http://tempuri.org/HoaDon.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/HoaDon.xsd"
+    xmlns:mstns="http://tempuri.org/HoaDon.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="HD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="LoaiHang" maxOccurs="10">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="MaLoai" type="xs:string"/>
+              <xs:element name="hang" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="TenHang" type="xs:string"/>
+                    <xs:element name="SoLuong" type="xs:integer"/>
+                    <xs:element name="DonViTinh">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="Gói"/>
+                          <xs:enumeration value="Hộp"/>
+                          <xs:enumeration value="Chiếc"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="DonGia">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:double">
+                          <xs:minExclusive value="0"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="MaHang">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:ID">
+                        <xs:maxLength value="6"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="TenLoai" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="MaHD" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

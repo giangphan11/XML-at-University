@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="ThiSinh.xslt"?>
+<Truong TenTruong="DCN">
+  <Nganh MaNganh="CNTT">
+    <TenNganh>Khoa học máy tính</TenNganh>
+    <ThiSinh MaTS="ts1">
+      <HoTen>Nguyễn Văn Hạnh</HoTen>
+      <KhoiThi>A</KhoiThi>
+      <DiemToan>8</DiemToan>
+      <DiemLy>8</DiemLy>
+      <DiemAnh>8</DiemAnh>
+    </ThiSinh>
+
+    <ThiSinh MaTS="ts2">
+      <HoTen>Trần Văn Phúc</HoTen>
+      <KhoiThi>D</KhoiThi>
+      <DiemToan>9</DiemToan>
+      <DiemLy>6</DiemLy>
+      <DiemAnh>7</DiemAnh>
+    </ThiSinh>
+
+    <ThiSinh MaTS="ts3">
+      <HoTen>Trần Thị Giải</HoTen>
+      <KhoiThi>A</KhoiThi>
+      <DiemToan>9</DiemToan>
+      <DiemLy>8</DiemLy>
+      <DiemAnh>8</DiemAnh>
+    </ThiSinh>
+  </Nganh>
+
+  <Nganh MaNganh="QTKD">
+    <TenNganh>Quản trị kinh doanh</TenNganh>
+    <ThiSinh MaTS="ts4">
+      <HoTen>Tô Như Thoát</HoTen>
+      <KhoiThi>D</KhoiThi>
+      <DiemToan>9.5</DiemToan>
+      <DiemLy>6</DiemLy>
+      <DiemAnh>6</DiemAnh>
+    </ThiSinh>
+
+    <ThiSinh MaTS="ts5">
+      <HoTen>Trần Thị Tý</HoTen>
+      <KhoiThi>A</KhoiThi>
+      <DiemToan>8</DiemToan>
+      <DiemLy>8</DiemLy>
+      <DiemAnh>8.5</DiemAnh>
+    </ThiSinh>
+
+    <ThiSinh MaTS="ts6">
+      <HoTen>Phan Bá Giang</HoTen>
+      <KhoiThi>A</KhoiThi>
+      <DiemToan>8</DiemToan>
+      <DiemLy>8</DiemLy>
+      <DiemAnh>8</DiemAnh>
+    </ThiSinh>
+  </Nganh>
+</Truong>

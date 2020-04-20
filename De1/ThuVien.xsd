@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ThuVien"
+    targetNamespace="http://tempuri.org/ThuVien.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/ThuVien.xsd"
+    xmlns:mstns="http://tempuri.org/ThuVien.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="TV">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="NhaXB" maxOccurs="10">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Sach" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="TenSach" type="xs:string"/>
+                    <xs:element name="TheLoai" type="xs:string"/>
+                    <xs:element name="SoTrang">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:integer">
+                          <xs:maxExclusive value="401"/>
+                          <xs:minExclusive value="49"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="MaSach">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:ID">
+                        <xs:maxLength value="6"/>
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:attribute>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="TenNXB">
+              <xs:simpleType>
+                <xs:restriction base="xs:string">
+                  <xs:enumeration value="Giáo dục"/>
+                  <xs:enumeration value="Khoa học kỹ thuật"/>
+                  <xs:enumeration value="Tuổi trẻ"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="TenTV" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

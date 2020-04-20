@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ThiSinh"
+    targetNamespace="http://tempuri.org/ThiSinh.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/ThiSinh.xsd"
+    xmlns:mstns="http://tempuri.org/ThiSinh.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="Truong">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Nganh">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="TenNganh" maxOccurs="10">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="60"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ThiSinh" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="HoTen" type="xs:string"/>
+                    <xs:element name="KhoiThi">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                          <xs:enumeration value="A"/>
+                          <xs:enumeration value="D"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="DiemToan" type="xs:float"/>
+                    <xs:element name="DiemLy" type="xs:float"/>
+                    <xs:element name="DiemAnh" type="xs:float"/>
+                  </xs:sequence>
+                  <xs:attribute name="MaTS" type="xs:string"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name="MaNganh">
+              <xs:simpleType>
+                <xs:restriction base="xs:ID">
+                  <xs:minLength value="4"/>
+                </xs:restriction>
+              </xs:simpleType>
+            </xs:attribute>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="TenTruong" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

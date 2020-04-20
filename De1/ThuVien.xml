@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="ThuVien.xslt"?>
+<TV>
+  <NhaXB TenNXB="Giáo dục">
+    <Sach MaSach="s01">
+      <TenSach>Giáo dục Công dân</TenSach>
+      <TheLoai>Sách dạy</TheLoai>
+      <SoTrang>50</SoTrang>
+    </Sach>
+
+    <Sach MaSach="s02">
+      <TenSach>Quốc phòng</TenSach>
+      <TheLoai>Sách dạy</TheLoai>
+      <SoTrang>200</SoTrang>
+    </Sach>
+
+    <Sach MaSach="s03">
+      <TenSach>Ca múa nhạc</TenSach>
+      <TheLoai>Sách hát</TheLoai>
+      <SoTrang>150</SoTrang>
+    </Sach>
+  </NhaXB>
+
+  <NhaXB TenNXB="Khoa học kỹ thuật">
+    <Sach MaSach="s04">
+      <TenSach>Lập trình Java</TenSach>
+      <TheLoai>Sách dạy</TheLoai>
+      <SoTrang>350</SoTrang>
+    </Sach>
+
+    <Sach MaSach="s05">
+      <TenSach>Lập trình OOP</TenSach>
+      <TheLoai>học OOP</TheLoai>
+      <SoTrang>200</SoTrang>
+    </Sach>
+
+    <Sach MaSach="s06">
+      <TenSach>Lập trình C#</TenSach>
+      <TheLoai>Lập trình</TheLoai>
+      <SoTrang>190</SoTrang>
+    </Sach>
+  </NhaXB>
+</TV>

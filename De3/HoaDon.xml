@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="HoaDon.xslt"?>
+<HD MaHD="hd1">
+  <LoaiHang TenLoai="Hoàng cháy nổ">
+    <MaLoai>ch1</MaLoai>
+    <hang MaHang="h01">
+      <TenHang>Bom nổ TNT</TenHang>
+      <SoLuong>100</SoLuong>
+      <DonViTinh>Chiếc</DonViTinh>
+      <DonGia>10000</DonGia>
+    </hang>
+    <hang MaHang="h02">
+      <TenHang>Pháo bông CNC</TenHang>
+      <SoLuong>200</SoLuong>
+      <DonViTinh>Hộp</DonViTinh>
+      <DonGia>20000</DonGia>
+    </hang>
+    <hang MaHang="h03">
+      <TenHang>Mìn CRP</TenHang>
+      <SoLuong>2000</SoLuong>
+      <DonViTinh>Gói</DonViTinh>
+      <DonGia>99999</DonGia>
+    </hang>
+  </LoaiHang>
+
+  <LoaiHang TenLoai="Hoàng Điện tử">
+    <MaLoai>dt2</MaLoai>
+    <hang MaHang="h04">
+      <TenHang>Tivi Sony 54inches</TenHang>
+      <SoLuong>100</SoLuong>
+      <DonViTinh>Chiếc</DonViTinh>
+      <DonGia>230000</DonGia>
+    </hang>
+    <hang MaHang="h05">
+      <TenHang>Loa phát thanh</TenHang>
+      <SoLuong>200</SoLuong>
+      <DonViTinh>Hộp</DonViTinh>
+      <DonGia>10000</DonGia>
+    </hang>
+    <hang MaHang="h06">
+      <TenHang>Máy giặt Panasonic</TenHang>
+      <SoLuong>2000</SoLuong>
+      <DonViTinh>Gói</DonViTinh>
+      <DonGia>999</DonGia>
+    </hang>
+  </LoaiHang>
+</HD>
