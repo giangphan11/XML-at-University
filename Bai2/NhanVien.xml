@@ -8,7 +8,114 @@
       <NhanVien>
         <MaNV>nv01</MaNV>
         <HoTen>Nguyễn Văn Hạnh</HoTen>
-        <NgaySinh>1982-2-3</NgaySinh>
+        <NgaySinh>1998-02-12</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayCong>31</NgayCong>
+      </NhanVien>
+
+      <NhanVien>
+        <MaNV>nv02</MaNV>
+        <HoTen>Trần Như Phúc</HoTen>
+        <NgaySinh>1997-12-12</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayCong>29</NgayCong>
+      </NhanVien>
+
+      <NhanVien>
+        <MaNV>nv03</MaNV>
+        <HoTen>Trần Thị Giải</HoTen>
+        <NgaySinh>1998-02-21</NgaySinh>
+        <GioiTinh>Nữ</GioiTinh>
+        <NgayCong>22</NgayCong>
+      </NhanVien>
+    </DonVi>
+
+    <DonVi >
+      <MaDV>DV02</MaDV>
+      <TenDV>Phòng kế toán</TenDV>
+      <DienThoai>09323323232</DienThoai>
+      <NhanVien>
+        <MaNV>nv04</MaNV>
+        <HoTen>Tô Văn Thoát</HoTen>
+        <NgaySinh>1997-08-02</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayCong>20</NgayCong>
+      </NhanVien>
+
+      <NhanVien>
+        <MaNV>nv05</MaNV>
+        <HoTen>Trần Như Nhộng</HoTen>
+        <NgaySinh>1998-12-01</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayCong>11</NgayCong>
+      </NhanVien>
+
+      <NhanVien>
+        <MaNV>nv06</MaNV>
+        <HoTen>Nguyễn Như Bình</HoTen>
+        <NgaySinh>1996-02-12</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayCong>27</NgayCong>
+      </NhanVien>
+    </DonVi>
+  </CongTy>
+
+  <CongTy TenCongTy="Công Ty Xây Dựng X">
+    <DonVi >
+      <MaDV>DV03</MaDV>
+      <TenDV>Phòng tổ chức</TenDV>
+      <DienThoai>09323323232</DienThoai>
+      <NhanVien>
+        <MaNV>nv07</MaNV>
+        <HoTen>Nguyễn Văn Hạnh</HoTen>
+        <NgaySinh>1998-02-12</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayCong>31</NgayCong>
+      </NhanVien>
+
+      <NhanVien>
+        <MaNV>nv08</MaNV>
+        <HoTen>Trần Như Phúc</HoTen>
+        <NgaySinh>1997-12-12</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayCong>29</NgayCong>
+      </NhanVien>
+
+      <NhanVien>
+        <MaNV>nv09</MaNV>
+        <HoTen>Trần Thị Giải</HoTen>
+        <NgaySinh>1998-02-21</NgaySinh>
+        <GioiTinh>Nữ</GioiTinh>
+        <NgayCong>22</NgayCong>
+      </NhanVien>
+    </DonVi>
+
+    <DonVi >
+      <MaDV>DV04</MaDV>
+      <TenDV>Phòng kế toán</TenDV>
+      <DienThoai>09323323232</DienThoai>
+      <NhanVien>
+        <MaNV>nv10</MaNV>
+        <HoTen>Tô Văn Thoát</HoTen>
+        <NgaySinh>1997-08-02</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayCong>20</NgayCong>
+      </NhanVien>
+
+      <NhanVien>
+        <MaNV>nv11</MaNV>
+        <HoTen>Trần Như Nhộng</HoTen>
+        <NgaySinh>1998-12-01</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayCong>11</NgayCong>
+      </NhanVien>
+
+      <NhanVien>
+        <MaNV>nv12</MaNV>
+        <HoTen>Nguyễn Như Bình</HoTen>
+        <NgaySinh>1996-02-12</NgaySinh>
+        <GioiTinh>Nam</GioiTinh>
+        <NgayCong>27</NgayCong>
       </NhanVien>
     </DonVi>
   </CongTy>
