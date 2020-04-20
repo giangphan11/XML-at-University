@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type ="text/xsl" href="SieuThi.xslt" ?>
+<SieuThi>
+  <TenSieuThi>VinMart Anh Sơn</TenSieuThi>
+  <DiaChi>Bac Tu Liem</DiaChi>
+  <SoDienThoai>0392133121</SoDienThoai>
+  <Hang MaHang="hn01">
+    <TenHang>Bánhh</TenHang>
+    <SoLuong>200</SoLuong>
+    <LoaiHang>Bình thường</LoaiHang>
+    <DonGia>2000</DonGia>
+  </Hang>
+
+  <Hang MaHang="hn02">
+    <TenHang>Kẹo</TenHang>
+    <SoLuong>200</SoLuong>
+    <LoaiHang>Bình thường</LoaiHang>
+    <DonGia>2000</DonGia>
+  </Hang>
+
+  <Hang MaHang="hn03">
+    <TenHang>Thuốc</TenHang>
+    <SoLuong>200</SoLuong>
+    <LoaiHang>Bình thường</LoaiHang>
+    <DonGia>2000</DonGia>
+  </Hang>
+</SieuThi>

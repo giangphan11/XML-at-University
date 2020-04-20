@@ -1,0 +1,9 @@
+D:\K2 - Nam3\XML\OnTapXML\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\K2 - Nam3\XML\OnTapXML\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\K2 - Nam3\XML\OnTapXML\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\K2 - Nam3\XML\OnTapXML\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\K2 - Nam3\XML\OnTapXML\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\K2 - Nam3\XML\OnTapXML\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\K2 - Nam3\XML\OnTapXML\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\K2 - Nam3\XML\OnTapXML\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\K2 - Nam3\XML\OnTapXML\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

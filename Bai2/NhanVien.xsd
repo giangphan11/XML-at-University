@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="NhanVien"
+    targetNamespace="http://tempuri.org/NhanVien.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/NhanVien.xsd"
+    xmlns:mstns="http://tempuri.org/NhanVien.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="DS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="CongTy" maxOccurs="4">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="DonVi" maxOccurs="10">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="MaDV">
+                      <xs:simpleType>
+                        <xs:restriction base="xs:ID">
+                          <xs:maxLength value="6"/>
+                        </xs:restriction>
+                      </xs:simpleType>
+                    </xs:element>
+                    <xs:element name="TenDV" type="xs:string"/>
+                    <xs:element name="DienThoai" type="xs:string"/>
+                    <xs:element name="NhanVien" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="MaNV">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:ID">
+                                <xs:maxLength value="6"/>
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="HoTen" type="xs:string"/>
+                          <xs:element name="NgaySinh" type="xs:date"/>
+                          <xs:element name="GioiTinh">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:string">
+                                <xs:enumeration value="Nam"/>
+                                <xs:enumeration value="Nữ"/>
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+                          <xs:element name="NgayCong">
+                            <xs:simpleType>
+                              <xs:restriction base="xs:integer">
+                                <xs:maxExclusive value="32"/>
+                                <xs:minExclusive value="10"/>
+                              </xs:restriction>
+                            </xs:simpleType>
+                          </xs:element>
+
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+
+
+            </xs:sequence>
+            <xs:attribute name="TenCongTy" type="xs:string"/>
+          </xs:complexType>
+        </xs:element>
+
+
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
