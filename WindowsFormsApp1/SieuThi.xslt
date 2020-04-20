@@ -29,7 +29,9 @@
             <td>Loại hàng</td>
             <td>Giá bán</td>
           </tr>
-        <xsl:for-each select="Hang" >
+          <xsl:apply-templates select="//Hang"/>
+        <!--<xsl:for-each select="Hang" >
+          
           <tr>
             <td>
               <xsl:value-of select="position()"/>
@@ -40,9 +42,35 @@
             <td><xsl:value-of select="LoaiHang"/></td>
             <td><xsl:value-of select="DonGia"/></td>
           </tr>
-        </xsl:for-each>
+          
+        </xsl:for-each>-->
         </table>
       </body>
     </html>
   </xsl:template>
+  
+  
+  <xsl:template match="Hang">
+    <tr>
+      <td>
+        <xsl:value-of select="position()"/>
+      </td>
+      <td>
+        <xsl:value-of select="@MaHang"/>
+      </td>
+      <td>
+        <xsl:value-of select="TenHang"/>
+      </td>
+      <td>
+        <xsl:value-of select="SoLuong"/>
+      </td>
+      <td>
+        <xsl:value-of select="LoaiHang"/>
+      </td>
+      <td>
+        <xsl:value-of select="DonGia"/>
+      </td>
+    </tr>
+  </xsl:template>
+  
 </xsl:stylesheet>

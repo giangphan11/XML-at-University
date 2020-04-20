@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<DS xmlns="http://tempuri.org/NhanVien.xsd">
+<?xml-stylesheet type="text/xsl" href="NhanVien.xslt"?>
+<DS>
   <CongTy TenCongTy="Công Ty Dược Nam Hà">
     <DonVi >
       <MaDV>DV01</MaDV>
